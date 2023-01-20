@@ -369,8 +369,218 @@ a {
     font-weight: 700;
 }
 
-.ismsmark img {
+.swiper-wrapper {
+  margin: 0 10px;
+}
+
+.swiper-box-L{
+  display: flex;
+  flex-direction: column;
+  width: 130px;
+  height: 200px;
+  margin-bottom: 70px;
+  
+}
+
+.thumb {
   width: 100%;
+  height: 100%;
+  padding: 5px;
+}
+
+.thumb img {
+  width: 100%;
+  height: 130px;
+
+}
+
+.thumb-item-info {
+  padding: 0 4px;
+  width: 90%;
+}
+
+.thumb-item-info strong {
+  font-size: 15px;
+  color: red;
+  font-weight: 700;
+  margin-right: 8px;
+}
+
+.th-seller {
+  font-size: 13px;
+  color: #5f6773;
+  margin-bottom: 3px;
+}
+
+
+.th-prod-name {
+  font-size: 14px;
+  margin-bottom: 5px;
+  overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+  color: #202429;
+}
+
+.th-prod-price {
+  width: 110px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  color: #202429;
+  font-weight: 700;
+}
+
+/* .add-slide-item {
+  display: flex;
+  width: ;
+}
+
+.add-slide-item img{
+  width: 88vw;
+} */
+
+footer {
+  width: 100vw;
+  margin-top: 80px;
+    padding-bottom: 70px;
+    border-top: 1px solid #ebeef2;
+    background-color: rgba(242,244,247,.6);
+    border-top: 1px solid #ebeef2;
+}
+
+.add-division {
+  border-top: 1px solid #ebeef2;
+}
+
+.inner {
+  padding: 20px;
+}
+
+.links-about {
+  display: flex;
+  width: 100vw;
+  margin-bottom: 5px;
+}
+
+.links-item {
+  color:#5f6773;
+  font-size: 12px;
+  
+  margin-right: 10px;
+}
+
+.userinfo-use {
+  font-weight: 700;
+}
+
+.links-social {
+  display: flex;
+}
+
+.social-icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50px;
+  height: 50px;
+  margin-left: -7px;
+}
+
+.social-question {
+  background-image: url(https://www.brandi.co.kr/static/22.08.01/images/footer/ic-faq-32.svg);
+}
+
+.social-kakao {
+  background-image: url(https://www.brandi.co.kr/static/22.08.01/images/footer/ic-kakaoplus-rogo-32.svg);
+}
+
+.social-facebook {
+  background-image: url(https://www.brandi.co.kr/static/22.08.01/images/footer/ic-facebook-rogo-32.svg);
+}
+
+.social-insta {
+  background-image: url(https://www.brandi.co.kr/static/22.08.01/images/footer/ic-insta-rogo-32.svg);
+}
+
+.infos-compny-txt h1 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.alert {
+  font-size: 12px;
+  font-style: normal;
+  color: #5f6773;
+  margin: 8px 0 11px; 
+}
+
+.link-text {
+  font-size: 12px;
+  font-weight: 700;
+  color: #5f6773;
+  font-style: normal;
+  margin: 20px 0;
+}
+
+.link-text a {
+  margin-left: 5px;
+  font-size: 13px;
+  text-decoration: underline;
+  color: #5f6773;
+  font-weight: 100;
+}
+
+.ismaArea {
+  display: flex;
+  width: 100%;
+  padding: 5px 0;
+
+}
+
+.ismsmark img {
+  width: 50px;
+}
+
+
+.ismaArea strong {
+  margin-right: 5px;
+}
+
+.ismsText {
+  display: flex;
+  font-size: 11px;
+  font-style: normal;
+  color: #989CA1;
+  margin-left: 15px;
+}
+
+.infos-cs {
+  font-style: normal;
+}
+
+.tit {
+  font-size: 16px;
+  padding: 5px 0;
+}
+
+.info {
+  font-size: 11.5px;
+  color:#5f6773
+}
+
+.info div {
+  display: flex;
+  padding-top: 5px;
+}
+
+.info div p {
+  margin-left: 10px;
+}
+
+.e-mail {
+  text-decoration: underline;
 }
 
 .up-fixed {
