@@ -4,8 +4,13 @@
 2. .footer-fixed-gnb 고정시키기
 
 (23.01.19)
+
 3. slider 이미지 자바스크립트로 setInterval, clearInterval 속성넣어 자동으로 배너페이지 이동하기 🔥
 4. 메인 상품 이미지들에게 hover 했을 때 scale 변화주기
 5. 스크롤동작은 가능하되, 스크롤바만 없애기 💡
    ::-webkit-scrollbar{display: none};
    
+ (23.01.20)  
+ 
+6. footer 부분 회사정보 수정완료 
+7. ✅.main-latest-wrap "최근 본 상품과 비슷해요!" 부분 swiper 스크립트로 적용시키기✅
